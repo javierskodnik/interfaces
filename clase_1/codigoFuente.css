@@ -1,0 +1,34 @@
+#vader{
+    font-size: xx-large;
+}
+
+#luke{
+    font-style: italic;
+    
+}
+.imperioEnRojo {
+    color:red;
+}
+
+.rebeldesEnAzul {
+    color:blue;
+
+}
+
+.bordesARayasSolados{
+    border-style: dashed;
+}
+
+.espacioLetraSoldados{
+    letter-spacing: 10px;
+}
+
+.unidadesDeApoyoAlCentro{
+    text-align: center;
+
+}
+
+.letrasMayuscula{
+    text-transform: uppercase;
+}
+
