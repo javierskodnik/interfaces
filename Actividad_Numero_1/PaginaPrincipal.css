@@ -1,0 +1,98 @@
+.boton_logout{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #1A9100;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 1330;
+  }
+
+.boton_misSolicitudes{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #1A9100;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 1160;
+
+}
+
+.boton_enviarSolicitud{
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #1A9100;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    right: 700;
+
+}
+.nombreYApellido{ 
+    position: absolute;
+    top: 120px;
+    right: 980;
+    
+}
+
+.dni{ 
+    position: absolute;
+    top: 220px;
+    right: 980;
+}
+
+.tipoDeSolicitud{ 
+    position: absolute;
+    top: 320px;
+    right: 980;
+    
+}
+
+.comentario{ 
+    position: absolute;
+    top: 120px;
+    right: 280;
+    
+}
+
+.input_usuario{
+    width: 420px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid #CDE7ED;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #CDE7ED
+}
+
+.input_solicitud{
+    width: 420px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 3px solid #CDE7ED;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #CDE7ED
+}

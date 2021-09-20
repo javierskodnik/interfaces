@@ -1,0 +1,113 @@
+
+.boton_logout{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #1A9100;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 1330;
+  }
+
+  .buttonFechaDesde {
+    width: 120px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    right: 1030;
+    color: #080808;
+  }
+
+  .seleccionFechaDesde{
+    width: 190px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    right: 230;
+    color: #080808;
+}
+.buttonFechaHasta {
+    width: 120px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+    right: 1030;
+    color: #080808;
+  }
+
+.seleccionFechaHasta{
+    width: 190px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 3px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+    right: 230;
+    color: #080808;
+
+  }
+
+  .buscarSolicitudes{
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #1A9100;
+    border-radius: 10px;
+    position: absolute;
+    top: 500px;
+    right: 630;
+}
+
+  .caja {
+    position: relative;
+    width: 100%;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 0.5px;
+    background: #1A9100;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    text-align:center;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 90px;
+    
+}

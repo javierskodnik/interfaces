@@ -1,0 +1,23 @@
+<html>
+    <head class="formatos">
+        <meta charset="utf-8">
+        <title>PaginaPrincipal</title>
+        <link rel="stylesheet" href="PaginaPrincipal.css" >
+    
+    </head>
+    <body class="formatos">
+        <a class = "boton_logout" href="Login.html" class="button">LogOut</a>
+        <a class = "boton_misSolicitudes" href="MisSolicitudes.html" class="button">Mis Solicitudes</a>
+        <a class = "boton_enviarSolicitud" href="SolicitudEnviada.html" class="button">Enviar Solicitud </a>
+        <label class="nombreYApellido">Nombre y Apellido <br> <input type="text" class = "input_usuario" name = "usuario" required></label><br>
+        <label class="dni">DNI <br> <input type="text" class = "input_usuario" name = "dni" required></label><br>
+        <div class="tipoDeSolicitud" >Tipo De Solicitud <br>
+        <select id="tipo" class = "input_usuario">
+            <option value="Baja_de_Materia">Baja De Materia</option>
+            <option value="Problemas_Familiares">Problemas Familiares</option>
+        </select>
+        </div>
+        <label class="comentario">Comentario <br> <input type="text" class = "input_solicitud" name = "comentario" required></label><br>
+
+    </body>
+</html>
