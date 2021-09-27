@@ -1,0 +1,62 @@
+.boton_logout{
+    border: none;
+    color: FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    background-color: #333333;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 20;
+  }
+
+.boton_generarNuevoCupon{
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    background-color: #333333;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+    right: 560;
+}
+
+.formatoCaja{
+    float: left;    
+    margin: 20vh 5vw 10vh 5vw;
+    width: 20%;
+    height: 80px;
+    padding: 20px 20px;
+    background: #FCDA59;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 10px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align:center;
+    font-size: 2vmin;
+    color: #333333;
+}
+
+.linea{
+    height: 10px;
+    background-color: #FCDA59;
+    color: #FCDA59 ;
+    border-width: 0px;
+    margin: 0;
+}
+
+.nombreLogin {
+    margin-top: 50px;
+    text-align: center;
+}

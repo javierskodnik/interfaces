@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BsAs</title>
+    <link rel="stylesheet" href="Login.css" >
+  </head>
+  <body>
+    <div>
+      <h1 class="bienvenido"> Bienvenido a la cuponera de descuentos de la Ciudad de Buenos Aires</h1>
+    </div>
+    <hr class="linea">
+    
+    <div class="logo">
+        <h3 id= "mi">MI</h3>
+        <img id="ba" src="ImagenBa.png">
+    </div>
+   
+    <form  class = "formulario" id= "formulario" action="PaginaPrincipal.html" method="post">
+        <input class ="input_login" type="text" name="Su Nombre" placeholder="Nombre" id= "nombre" required></label> <br><br>
+        <input class ="input_login" type="text" name="usuario" placeholder="Usuario" id= "usuario" required></label> <br><br>
+        <input class = "input_login" type="password" name="Contraseña" id= "contraseña" placeholder="Contraseña" required></label><br><br>
+        <button type="submit" id= "botonLogin" class="button">Ingresar</button>
+    </form>
+    
+    <div class="CrearCuentaYOlvidarContraseña">
+        <div class = "datosContrasñaYUsuario"><p><a href="mailto:ayuda@bagob.com.ar">¿Olvidate tu Contraseña?</a></p></div>
+        <div class = "datosContrasñaYUsuario"><p><a href="mailto:ayuda@bagob.com.ar">Crear una Cuenta</p></div>
+    </div>
+    
+    <script src="Login.js"> </script>
+  </body>
+</html>
