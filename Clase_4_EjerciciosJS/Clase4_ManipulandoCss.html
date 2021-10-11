@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+        </title>
+        <link rel="stylesheet" href="Clase4_ManipulandoCss.css">
+    </head>
+    <body>
+    
+        <div >
+            
+        <script>
+            var estilo_div=document.querySelector("div")
+            /*
+            estilo_div.style.height="350px";
+            estilo_div.style.width="550px";
+            estilo_div.style.backgroundColor="blue";
+            */
+            estilo_div.classList.add("square");
+            function Interval(){
+                estilo_div.classList.toggle("square");
+            }
+            setInterval(Interval, 1000);
+        
+        </script>
+        </div>
+        
+    </body>
+</html>
