@@ -1,24 +1,23 @@
 import React from 'react';
+import './InfoNBA.css';
+
 
 const InfoNBA = ({infoNbaProp}) => {
+    let info = '';
+    if (infoNbaProp && infoNbaProp.home_team) {
+        return ( 
+            <div class="alert alert-success">
+                <h3>Los resultados de las fecha NBA son:</h3>
+                <p> {infoNbaProp.home_team.city}  [{infoNbaProp.home_team_score}]  {infoNbaProp.visitor_team.city}  [{infoNbaProp.visitor_team_score}]</p>  
+            </div>
+         );
+    }
     return ( 
-        <div
-            style={
-                {
-                    margin:"1rem",
-                    padding:"3rem",
-                    borderRadius:"9rem",
-                    backgroundColor:"#ffffff",
-                    maxWidth:"800px",
-                    color:"black",
-                    textEmphasisColor:"black"
-                }
-            }>
-            <p>
-                {infoNbaProp.id} - {infoNbaProp.date}
-            </p>
+        <div class="alert alert-success" role="alert">
+           
         </div>
      );
+
 }
  
 export default InfoNBA;

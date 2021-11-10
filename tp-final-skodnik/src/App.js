@@ -7,6 +7,7 @@ import Changuito from "./components/Changuito";
 import Pagination from "./components/Pagination";
 import InfoNBA from './components/InfoNBA';
 import './components/main.css';
+import './components/InfoNBA.css';
 
 
 
@@ -29,6 +30,9 @@ function App() {
   //State para traer la info de NBA
 
   const [infoNBA, setInfoNBA] = useState({})
+  const [nbaList, setNbaList] = useState({}) //estamos guardando la lista entera
+  let listPosition = 0
+
 
   //state para consultar la api y obtener el resultado
   //const [api, consultarApi] = useState({})
@@ -44,8 +48,21 @@ function App() {
       //ahora hacemos el parseo y lo guardamos en const infoNBA
 
       const infoNBA = await api.json();
+      setNbaList(infoNBA.data); //guardamos la lista
       //le especificamos que elemento del json queremos
       setInfoNBA(infoNBA.data[0]);
+    
+      
+      setInterval(function(){ 
+        let newPosition = listPosition + 1;
+        if (newPosition > infoNBA.data.length){
+          newPosition = 0
+        }
+        console.log(newPosition)
+        setInfoNBA(infoNBA.data[newPosition]); 
+        listPosition = newPosition;
+
+      }, 3000);
 
     } catch(error){
       console.log(error)
@@ -84,7 +101,7 @@ function App() {
           <button className= "buttonInfoNBA"   onClick={consultarApi}>
             TraerNba
           </button>
-          <InfoNBA infoNbaProp ={infoNBA}/>
+          <InfoNBA  infoNbaProp ={infoNBA}/>
           <br></br>
           <Pagination/>
         </div>  
