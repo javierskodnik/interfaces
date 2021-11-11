@@ -6,7 +6,7 @@ document.getElementById("formulario").addEventListener("submit", function(evento
     var usuario = document.getElementById("usuario").value
     var pass = document.getElementById("contraseña").value
    
-    if ( usuario.search(/[0-9]/) < 0 ||  usuario.search(/[a-z]/i) > 0) { 
+    if (!/^[0-9]+$/.test(usuario)) { 
         alert("El nombre de usuario tiene que ser numérico")
         return 
     }
@@ -15,8 +15,7 @@ document.getElementById("formulario").addEventListener("submit", function(evento
         alert("La Contraseña debe tener al menos 4 caracteres")
         return
     }
-
-
+    
     this.submit()
 
 })

@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    /* en template columns ponemos que porcentaje de la pantalla queremos que ocupe cada columna
+     o también se puede poner en pixeles -- si definimos tres tamaños, habra tres columnas*/
+    /*grid-template-columns: 200px 200px 200px;*/
+    /*otra forma de dividir las columnas es con fracciones*/
+    grid-template-columns: 1fr 1fr 1fr; /*fr es fracción de columna*/
+    /*que pasa si quiero dividir en 15 ?? grid-template-columns: repeat(10, 1fr)*/
+
+    /* template rows es para el ancho de los filas / si ponemos "auto", se ajusta*/
+    grid-template-rows: 200px 200px; 
+    /*  gap es el espaciado entre fila y fila  / columna y columna*/
+    /*gap: 1em;*/
+    /*column-gap: 10px; /*--> solo aplica la separación entre columnas, no entre filas*/
+    row-gap: 10px; /*--> solo aplica la separación entre filas, no entre columnas*/ 
+
+    /*justify-items ubica los elementos en el centro, izquierda, o derecha(end)*/
+    justify-items: center;
+
+}
+
+.testing{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 1em;
+}
+
+
+.grid div {
+    background: #ecf0f1;
+    padding: 1em;
+    ;
+}
+
+div:hover{
+    /*enmarca los cuadrados*/
+    border: 1px solid #f1c40f;
+
+}
