@@ -8,7 +8,7 @@ const InfoNBA = ({infoNbaProp}) => {
         return ( 
             <div class="alert alert-success">
                 <h3>Los resultados de las fecha NBA son:</h3>
-                <p> {infoNbaProp.home_team.city}  [{infoNbaProp.home_team_score}]  {infoNbaProp.visitor_team.city}  [{infoNbaProp.visitor_team_score}]</p>  
+                <p> {infoNbaProp.home_team.city}  [{infoNbaProp.home_team_score}] versus  {infoNbaProp.visitor_team.city}  [{infoNbaProp.visitor_team_score}]</p>  
             </div>
          );
     }
